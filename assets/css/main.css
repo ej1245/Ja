@@ -4008,6 +4008,8 @@ input, select, textarea {
 			#footer a:hover {
     border-bottom-color: transparent;
     color: #A98916 !important;
+    font-size: large;
+    line-height: 120%;
 			}
 
 		#footer strong, #footer b {
