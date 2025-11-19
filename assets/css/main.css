@@ -2875,7 +2875,8 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5rem;
+    padding-left: 0.5rem;
+    vertical-align: sub;
 		}
 
 		ul.divided {
@@ -3358,6 +3359,7 @@ input, select, textarea {
     color: #ffffff;
     font-family: "Aboreto Regular";
     font-style: normal;
+    font-size: 54px;
 		}
 
 		#intro blockquote {
