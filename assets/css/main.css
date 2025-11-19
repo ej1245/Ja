@@ -3359,7 +3359,8 @@ input, select, textarea {
     color: #ffffff;
     font-family: "Aboreto Regular";
     font-style: normal;
-    font-size: 54px;
+    font-size: 3.2rem;
+    line-height: 1.1;
 		}
 
 		#intro blockquote {
