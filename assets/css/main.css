@@ -3,6 +3,9 @@
 @import url("../../webfonts/Raleway/stylesheet.css");
 @import url("../../webfonts/Raleway_Italic_VariableFont_wght/stylesheet.css");
 @import url("../../webfonts/Aboreto_Regular/stylesheet.css");
+#footer {
+  margin-top: 40px;
+}
 
 
 
