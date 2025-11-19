@@ -119,10 +119,11 @@ input, select, textarea {
     transition: none !important;
     font-style: normal;
     line-height: 150%;
-    font-size: medium;
+    font-size: 22px;
     max-width: 100rem;
     color: #0C0C0D;
     font-family: "Aboreto Regular";
+    text-align: center;
 		}
 .is-preload .embed-responsive-item .embed-responsive.embed-responsive {
     width: 70%;
