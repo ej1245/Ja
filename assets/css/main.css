@@ -4019,6 +4019,7 @@ input, select, textarea {
     color: #A98916 !important;
     font-size: large;
     line-height: 120%;
+    text-align: center;
 			}
 
 		#footer strong, #footer b {
@@ -4735,4 +4736,26 @@ input, select, textarea {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+/* Ensure the body fills the viewport and allows footer to stick */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content should expand to push footer down */
+#main, .content-wrapper {
+  flex: 1; /* adjust if your main content uses a different container class */
+}
+
+/* Footer styling and sticky behavior */
+#footer {
+  margin-top: auto;  /* pushes footer to the bottom on short pages */
+  background-color: #f8f9fa; /* optional: your footer background color */
+  text-align: center;
+  padding: 20px;
+  clear: both;
 }
