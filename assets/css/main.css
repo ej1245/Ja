@@ -4733,23 +4733,28 @@ input, select, textarea {
 		}
 
 	}
+/* Limit carousel width on desktop */
 .carousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-/* Ensure the body fills the viewport and allows footer to stick */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+  max-width: 60%;      /* limit width to 60% of container */
+  height: auto;        /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto;      /* center horizontally */
+  object-fit: contain; /* show full image without cropping */
 }
 
-/* Main content should expand to push footer down */
-#main, .content-wrapper {
-  flex: 1; /* adjust if your main content uses a different container class */
+/* Medium screens */
+@media (max-width: 1200px) {
+  .carousel-item img {
+    max-width: 70%;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .carousel-item img {
+    max-width: 100%;   /* fill mobile width */
+    object-fit: cover;
+  }
 }
 
 /* Footer styling and sticky behavior */
