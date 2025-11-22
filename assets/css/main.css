@@ -104,7 +104,7 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		box-sizing: inherit;
+    box-sizing: inherit;
 	}
 
 	body {
@@ -126,7 +126,6 @@ input, select, textarea {
     max-width: 100rem;
     color: #0C0C0D;
     font-family: "Aboreto Regular";
-    text-align: center;
 		}
 .is-preload .embed-responsive-item .embed-responsive.embed-responsive {
     width: 70%;
@@ -3577,7 +3576,8 @@ input, select, textarea {
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+    color: #ffffff;
+    font-family: "Aboreto Regular";
 		}
 
 		#header blockquote {
@@ -4338,7 +4338,8 @@ input, select, textarea {
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 0.8rem;
+    font-size: 0.8rem;
+    text-align: center;
 		}
 
 		@media screen and (max-width: 980px) {
